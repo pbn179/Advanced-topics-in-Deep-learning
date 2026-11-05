@@ -1,0 +1,7 @@
+parameter_budget,metric,descriptive_mean_leader
+16000,validation_accuracy,B
+16000,accuracy_change_pp,B
+16000,best_iteration,A
+20000,validation_accuracy,B
+20000,accuracy_change_pp,B
+20000,best_iteration,A

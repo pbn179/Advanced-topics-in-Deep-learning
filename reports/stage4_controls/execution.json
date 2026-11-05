@@ -1,0 +1,210 @@
+{
+  "status": "complete",
+  "workers": 3,
+  "start_method": "spawn",
+  "cases": [
+    [
+      "A",
+      0,
+      6
+    ],
+    [
+      "A",
+      0,
+      12
+    ],
+    [
+      "A",
+      1,
+      6
+    ],
+    [
+      "A",
+      1,
+      12
+    ],
+    [
+      "A",
+      2,
+      6
+    ],
+    [
+      "A",
+      2,
+      12
+    ],
+    [
+      "B",
+      0,
+      6
+    ],
+    [
+      "B",
+      0,
+      12
+    ],
+    [
+      "B",
+      1,
+      6
+    ],
+    [
+      "B",
+      1,
+      12
+    ],
+    [
+      "B",
+      2,
+      6
+    ],
+    [
+      "B",
+      2,
+      12
+    ],
+    [
+      "C",
+      0,
+      6
+    ],
+    [
+      "C",
+      0,
+      12
+    ],
+    [
+      "C",
+      1,
+      6
+    ],
+    [
+      "C",
+      1,
+      12
+    ],
+    [
+      "C",
+      2,
+      6
+    ],
+    [
+      "C",
+      2,
+      12
+    ]
+  ],
+  "original_tickets_retrained": 0,
+  "test_evaluated": false,
+  "completed": [
+    {
+      "architecture": "A",
+      "seed": 0,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/A_seed0_round12"
+    },
+    {
+      "architecture": "A",
+      "seed": 0,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/A_seed0_round6"
+    },
+    {
+      "architecture": "A",
+      "seed": 1,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/A_seed1_round6"
+    },
+    {
+      "architecture": "A",
+      "seed": 1,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/A_seed1_round12"
+    },
+    {
+      "architecture": "A",
+      "seed": 2,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/A_seed2_round6"
+    },
+    {
+      "architecture": "A",
+      "seed": 2,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/A_seed2_round12"
+    },
+    {
+      "architecture": "B",
+      "seed": 0,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/B_seed0_round6"
+    },
+    {
+      "architecture": "B",
+      "seed": 0,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/B_seed0_round12"
+    },
+    {
+      "architecture": "B",
+      "seed": 1,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/B_seed1_round6"
+    },
+    {
+      "architecture": "B",
+      "seed": 1,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/B_seed1_round12"
+    },
+    {
+      "architecture": "B",
+      "seed": 2,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/B_seed2_round6"
+    },
+    {
+      "architecture": "B",
+      "seed": 2,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/B_seed2_round12"
+    },
+    {
+      "architecture": "C",
+      "seed": 0,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed0_round6"
+    },
+    {
+      "architecture": "C",
+      "seed": 0,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed0_round12"
+    },
+    {
+      "architecture": "C",
+      "seed": 1,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed1_round6"
+    },
+    {
+      "architecture": "C",
+      "seed": 1,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed1_round12"
+    },
+    {
+      "architecture": "C",
+      "seed": 2,
+      "stage": 6,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed2_round6"
+    },
+    {
+      "architecture": "C",
+      "seed": 2,
+      "stage": 12,
+      "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed2_round12"
+    }
+  ],
+  "elapsed_seconds": 386.5241502099998
+}

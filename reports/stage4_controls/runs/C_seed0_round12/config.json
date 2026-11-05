@@ -1,0 +1,19 @@
+{
+  "architecture": "C",
+  "seed": 0,
+  "stage": 12,
+  "initialization_seed": 1012111,
+  "source_run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage2_5/pilot/C-seed0-msu2cpkt",
+  "source_final_sha256": "e2e7546bbb8e75383597046cee89e45df3e65e2b0f99557e54f7eb785c0710cd",
+  "source_start_sha256": "ec914e50092b3a8ccd1d62f0b686b23ffef0963a11030b516ca5dafbeeb95ef5",
+  "mask_sha256": "1b8dbe54deb9a0d8d1c576b8d22c4b1651bcad91b99c48e9891d1848b1ad6e44",
+  "iterations": 10000,
+  "eval_interval": 100,
+  "learning_rate": 0.0012,
+  "batch_size": 60,
+  "split_seed": 42,
+  "source_split_sha256": "3c76cfa6314d73a15b619598d4132b214b20e02db7ba7ad91bf7a1aa8db87612",
+  "num_threads": 1,
+  "device": "cpu",
+  "status": "complete"
+}

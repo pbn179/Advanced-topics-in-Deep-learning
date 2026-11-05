@@ -1,0 +1,21 @@
+# Frozen final research protocol. Full reproduction is opt-in only.
+architectures:
+  A: [162, 421]
+  B: [200, 204]
+  C: [231, 77]
+model_seeds: [0, 1, 2]
+split_seed: 42
+iterations: 10000
+eval_interval: 100
+rounds: 12
+learning_rate: 0.0012
+batch_size: 60
+hidden_pruning_rate: 0.2
+output_pruning_rate: 0.1
+initialization: gaussian_glorot
+optimizer: Adam
+control_stages: [6, 12]
+test_stages: [0, 6, 12]
+device: cpu
+num_threads: 1
+data_dir: datasets

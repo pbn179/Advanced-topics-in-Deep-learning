@@ -1,0 +1,3 @@
+study,architectures,seeds,pruning_rounds,new_control_trainings,updates_per_control,new_updates,estimated_serial_cpu_minutes,planning_minutes_plus_25_percent,executed,ticket_retraining_required,basis
+Small initial same-mask control pilot,"A,B,C",0,"6,12",6,10000,60000,6.438349817983317,8.047937272479146,False,False,Matched ticket wall times; controls use same masks and fixed compute budget; timing approximate
+Three-seed matched controls,"A,B,C","0,1,2","6,12",18,10000,180000,20.51730320551666,25.646629006895825,False,False,Matched ticket wall times; controls use same masks and fixed compute budget; timing approximate

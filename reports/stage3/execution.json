@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "workers": 3,
+  "process_start_method": "spawn",
+  "new_combinations": [
+    [
+      "A",
+      1
+    ],
+    [
+      "B",
+      1
+    ],
+    [
+      "C",
+      1
+    ],
+    [
+      "A",
+      2
+    ],
+    [
+      "B",
+      2
+    ],
+    [
+      "C",
+      2
+    ]
+  ],
+  "reused_seed0": [
+    "A",
+    "B",
+    "C"
+  ],
+  "completed": [
+    {
+      "architecture": "B",
+      "seed": 1,
+      "run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage3/runs/B_seed1/B-seed1-b1pnco2t",
+      "stages": 13,
+      "elapsed_this_call_seconds": 776.5558915319998
+    },
+    {
+      "architecture": "C",
+      "seed": 1,
+      "run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage3/runs/C_seed1/C-seed1-e6940o6t",
+      "stages": 13,
+      "elapsed_this_call_seconds": 898.2761601629991
+    },
+    {
+      "architecture": "A",
+      "seed": 1,
+      "run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage3/runs/A_seed1/A-seed1-44uollro",
+      "stages": 13,
+      "elapsed_this_call_seconds": 974.456671085999
+    },
+    {
+      "architecture": "A",
+      "seed": 2,
+      "run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage3/runs/A_seed2/A-seed2-9g9llydw",
+      "stages": 13,
+      "elapsed_this_call_seconds": 1003.9426846570004
+    },
+    {
+      "architecture": "C",
+      "seed": 2,
+      "run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage3/runs/C_seed2/C-seed2-yzwioaw8",
+      "stages": 13,
+      "elapsed_this_call_seconds": 880.8885589250003
+    },
+    {
+      "architecture": "B",
+      "seed": 2,
+      "run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage3/runs/B_seed2/B-seed2-gn2msa5x",
+      "stages": 13,
+      "elapsed_this_call_seconds": 1050.8777431170001
+    }
+  ],
+  "elapsed_seconds": 1954.0224120539997
+}

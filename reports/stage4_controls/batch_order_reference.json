@@ -1,0 +1,26 @@
+{
+  "0": {
+    "seed": 0,
+    "iterations": 10000,
+    "batch_size": 60,
+    "examples": 599800,
+    "order_sha256": "36a275e1f462c46563ce5281a680367cc94037799b39dcd20f0e8aa09c85f335",
+    "final_generator_sha256": "305d60b081bd8a04061f09e9584a642fbf30e85036efa03c7672ed00cae03cbd"
+  },
+  "1": {
+    "seed": 1,
+    "iterations": 10000,
+    "batch_size": 60,
+    "examples": 599800,
+    "order_sha256": "a8a969b4cab59855801b68aa094cecc99aa7a9d7313eaa54ced6d6a8155c972f",
+    "final_generator_sha256": "168af85cb0645abaedc2c5d74ee29b4a7af4b6e33110ad39e9f6365bff621399"
+  },
+  "2": {
+    "seed": 2,
+    "iterations": 10000,
+    "batch_size": 60,
+    "examples": 599800,
+    "order_sha256": "ff11b57a93722da70132d66fd00fcda80f3924883b88d0c296b3576686fcdf89",
+    "final_generator_sha256": "fc9b8059b41c12afcc038224c0b2f2aba303356aa7ec4da0af8ec4192f3867e3"
+  }
+}

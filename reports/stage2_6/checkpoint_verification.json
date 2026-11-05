@@ -1,0 +1,30 @@
+{
+  "A": {
+    "stages_verified": 13,
+    "final_weight_pruning": true,
+    "original_weight_restoration": true,
+    "masks_enforced": true,
+    "checkpoints_unchanged": true,
+    "complete_resume_skips_training": true
+  },
+  "B": {
+    "stages_verified": 13,
+    "final_weight_pruning": true,
+    "original_weight_restoration": true,
+    "masks_enforced": true,
+    "checkpoints_unchanged": true,
+    "complete_resume_skips_training": true
+  },
+  "C": {
+    "stages_verified": 13,
+    "final_weight_pruning": true,
+    "original_weight_restoration": true,
+    "masks_enforced": true,
+    "checkpoints_unchanged": true,
+    "complete_resume_skips_training": "C not resumed or trained"
+  },
+  "preservation": {
+    "stage2_5_files_unchanged": true,
+    "files_verified": 319
+  }
+}

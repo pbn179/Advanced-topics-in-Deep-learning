@@ -1,0 +1,42 @@
+{
+  "result": {
+    "architecture": "C",
+    "seed": 0,
+    "stage": 12,
+    "initialization_seed": 1012111,
+    "condition": "random_reinitialization",
+    "parameters": 199979,
+    "total_weights": 199661,
+    "remaining_weights": 13891,
+    "remaining_percent": 6.957292610975603,
+    "sparsity": 0.9304270738902439,
+    "best_iteration": 8500,
+    "best_validation_loss": 0.11094791107177734,
+    "best_validation_accuracy": 0.9688,
+    "final_training_loss": 0.019284972921013832,
+    "training_loss": 0.1487902416648044,
+    "runtime_seconds": 58.18282010099938,
+    "evaluation_seconds": 7.150210634985342,
+    "diagnostic_evaluation_seconds": 0.0,
+    "iterations": 10000,
+    "eval_interval": 100,
+    "mask_sha256": "1b8dbe54deb9a0d8d1c576b8d22c4b1651bcad91b99c48e9891d1848b1ad6e44",
+    "batch_order_sha256": "36a275e1f462c46563ce5281a680367cc94037799b39dcd20f0e8aa09c85f335",
+    "training_examples_seen": 599800,
+    "final_generator_sha256": "305d60b081bd8a04061f09e9584a642fbf30e85036efa03c7672ed00cae03cbd",
+    "mask_checks_during_training": 100,
+    "source_run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage2_5/pilot/C-seed0-msu2cpkt",
+    "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed0_round12",
+    "best_checkpoint_saved": true,
+    "test_evaluated": false
+  },
+  "sha256": {
+    "fresh_initial.pt": "d47e52bbbc3697456e06094b5ed37e947ac40815d1d07e40fbef471e5d198768",
+    "start.pt": "086f2f1849576eabf1c62fa233bc3a72b223ed0c8f4919c858e97e42bdf4c55f",
+    "best_validation.pt": "dc5660445617a058f7066d83aace0886ac1d2e5742de5f068752c758a2f28171",
+    "final.pt": "9223988cb104019c854973cf7293f14fa9f7af898a495c45dd0471325eccbad0",
+    "history.csv": "4176e54f1ecc2c54b05cd50feebda94a4cbab7c21d06f4b0f169213c448f2609",
+    "result.json": "9fae2686922f88410b8a5cdfc5ae8449b1750d3df252d7964c723a4760c8f78a",
+    "config.json": "206bab92f80a2f0755685cc086e3677512f5fe4de377db0eddb49faf3b2099d1"
+  }
+}

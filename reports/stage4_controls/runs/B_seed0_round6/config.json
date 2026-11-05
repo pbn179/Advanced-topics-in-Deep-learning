@@ -1,0 +1,19 @@
+{
+  "architecture": "B",
+  "seed": 0,
+  "stage": 6,
+  "initialization_seed": 1006057,
+  "source_run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage2_6/pilots/B/B-seed0-8peak8fc",
+  "source_final_sha256": "822b3036ab2989b02cec71cd1726a9913fe205c89a1daf0753515c6701524c89",
+  "source_start_sha256": "c9b7d65016609e46c54cb8f5ecaffa44370e8a83ea2559bf178d0f93294136d1",
+  "mask_sha256": "906467f31500bc82c8d0c2f39c87becc57afa98ecd4e9fa54d45cf4c65f2267d",
+  "iterations": 10000,
+  "eval_interval": 100,
+  "learning_rate": 0.0012,
+  "batch_size": 60,
+  "split_seed": 42,
+  "source_split_sha256": "3c76cfa6314d73a15b619598d4132b214b20e02db7ba7ad91bf7a1aa8db87612",
+  "num_threads": 1,
+  "device": "cpu",
+  "status": "complete"
+}

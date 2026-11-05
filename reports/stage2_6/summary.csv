@@ -1,0 +1,4 @@
+architecture,seed,parameters,dense_accuracy,dense_best_iteration,final_sparse_accuracy,final_sparse_best_iteration,final_remaining_weights,final_remaining_parameters,final_remaining_percent,final_accuracy_degradation_pp,minimum_best_iteration,maximum_best_iteration,late_minima,final_update_minima,late_decreasing_stages,budget_concerns,high_sparsity_concerns,training_runtime_minutes
+A,0,200013,0.9786,2500,0.9794,3300,14610,15203,7.326246113729816,-0.08000000000000229,1900,3300,0,0,2,0,0,13.769707866499994
+B,0,200054,0.978,4100,0.981,2900,14161,14575,7.093267882187939,-0.30000000000000027,2500,4300,0,0,2,0,0,14.416848941883352
+C,0,199979,0.9802,4100,0.979,3800,13891,14209,6.957292610975603,0.11999999999999789,2500,4100,0,0,1,0,0,13.673673156899978

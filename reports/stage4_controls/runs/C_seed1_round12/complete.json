@@ -1,0 +1,42 @@
+{
+  "result": {
+    "architecture": "C",
+    "seed": 1,
+    "stage": 12,
+    "initialization_seed": 1012112,
+    "condition": "random_reinitialization",
+    "parameters": 199979,
+    "total_weights": 199661,
+    "remaining_weights": 13891,
+    "remaining_percent": 6.957292610975603,
+    "sparsity": 0.9304270738902439,
+    "best_iteration": 9800,
+    "best_validation_loss": 0.10211883659362793,
+    "best_validation_accuracy": 0.9672,
+    "final_training_loss": 0.06889767944812775,
+    "training_loss": 0.14378458753648354,
+    "runtime_seconds": 48.006226775998584,
+    "evaluation_seconds": 5.5695876109966775,
+    "diagnostic_evaluation_seconds": 0.0,
+    "iterations": 10000,
+    "eval_interval": 100,
+    "mask_sha256": "967305ea8abd03b0b27824e9f832be63138b48590f44990d7edd7a764be10745",
+    "batch_order_sha256": "a8a969b4cab59855801b68aa094cecc99aa7a9d7313eaa54ced6d6a8155c972f",
+    "training_examples_seen": 599800,
+    "final_generator_sha256": "168af85cb0645abaedc2c5d74ee29b4a7af4b6e33110ad39e9f6365bff621399",
+    "mask_checks_during_training": 100,
+    "source_run_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage3/runs/C_seed1/C-seed1-e6940o6t",
+    "control_directory": "/workspace/Advanced-topics-in-Deep-learning/reports/stage4_controls/runs/C_seed1_round12",
+    "best_checkpoint_saved": true,
+    "test_evaluated": false
+  },
+  "sha256": {
+    "fresh_initial.pt": "2652dc3be1a5e104288307088d6a55dc4509fb77722aef26ad761e426dd9612c",
+    "start.pt": "246067fab63a31275185c344cf699c812474f74bea236e2f68b5e62176adc1f1",
+    "best_validation.pt": "39e31e71a6061e2196f2259307ad807b07ef96c70b8ba1367d82cbb5e591b690",
+    "final.pt": "90afa9cb8ace85b9115b0c72c9036d510128eaf886875ddbb3a61b4b4042c734",
+    "history.csv": "66fd5ddd39551e772e9f5c776a9102c6109bd291a5651d36da1b3f6b0e79bf5e",
+    "result.json": "6a37642de7756f3d8d134b05c287e55108673a8faf58283a816da56ecd1ee9a3",
+    "config.json": "2ddb9116eb54f25bd6faa59902965b93deef9cf72e5959e3bdc791f0a8715fb1"
+  }
+}

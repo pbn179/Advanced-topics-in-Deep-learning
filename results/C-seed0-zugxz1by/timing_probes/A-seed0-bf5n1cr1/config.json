@@ -1,0 +1,32 @@
+{
+  "architecture": "A",
+  "seed": 0,
+  "rounds": 0,
+  "iterations": 500,
+  "eval_interval": 100,
+  "device": "cpu",
+  "requested_device": "cpu",
+  "split_seed": 42,
+  "learning_rate": 0.0012,
+  "batch_size": 60,
+  "control": false,
+  "data_dir": "/workspace/Advanced-topics-in-Deep-learning/datasets",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "versions": {
+    "torch": "2.6.0+cpu",
+    "torchvision": "0.21.0+cpu",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "control_seed_rule": "(seed + 1000003 + stage * 1009) % 2**32",
+  "status": "complete",
+  "split_sha256": "3c76cfa6314d73a15b619598d4132b214b20e02db7ba7ad91bf7a1aa8db87612",
+  "dataset_sizes": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000
+  },
+  "elapsed_seconds": 5.773009695000155
+}

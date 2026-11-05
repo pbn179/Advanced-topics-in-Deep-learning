@@ -1,0 +1,32 @@
+{
+  "architecture": "C",
+  "seed": 2,
+  "stage": 12,
+  "condition": "original_initialization",
+  "iteration": 4400,
+  "validation_loss": 0.07093781814575195,
+  "validation_accuracy": 0.9802,
+  "loss_absolute_difference": 5.551115123125783e-17,
+  "accuracy_absolute_difference": 0.0,
+  "checkpoint": "reports/stage4_test/replays/C_seed2_round12/best_validation.pt",
+  "checkpoint_sha256": "58870cbe77bac95d586815ab13d95ad9c21d0e0eb7a151c3fdc9e5799d90eeeb",
+  "state_sha256": "324177d84f752a43c2c305eb67db29f2e3eff719049c4b770013c0d4145e2800",
+  "mask_sha256": "eef22a74beef60b9560047fdb1a87ff668daaf27748dc6427b3358b2ec156a09",
+  "source_start_sha256": "42ded6aac2b748b380641bbb9f5eadc2204722762b66f57f8d22953573a51502",
+  "original_sha256": "570ab8d70b0802a191e2705d7aff7423eb7a7f6680ea0f8915fa4b3622745ac3",
+  "split_sha256": "a5a47d9c70540d9d173834780a748ab2ebdaa299cf9f092f7f9dbe7e148f9713",
+  "history_prefix_verified": true,
+  "mask_checks": 44,
+  "original_initialization_restored": true,
+  "batch_order_reference": {
+    "seed": 2,
+    "iterations": 4400,
+    "batch_size": 60,
+    "examples": 263920,
+    "order_sha256": "016756f6749d9def2e31ff0c9ec2b4de7b00c1800c3231481cb9c4908ddb075a",
+    "final_generator_sha256": "8f0f3714fce098975fd7a6e4da12b077b83ac4ec562f2b5137d4f129ee67d037"
+  },
+  "batch_order_basis": "Exact reconstruction of frozen loader protocol; historical fetch hashes unavailable",
+  "runtime_seconds": 42.76793378500042,
+  "verified": true
+}

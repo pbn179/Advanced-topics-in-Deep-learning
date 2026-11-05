@@ -1,0 +1,4 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Looking in indexes: https://download.pytorch.org/whl/cpu
+ERROR: Could not find a version that satisfies the requirement torch==2.6.0+cpu (from versions: none)
+ERROR: No matching distribution found for torch==2.6.0+cpu

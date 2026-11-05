@@ -1,0 +1,10 @@
+# Stage 1 only: dense baseline plus one pruning round, one seed.
+architecture: LeNet300100
+seed: 0
+rounds: 1
+iterations: 200
+eval_interval: 100
+device: cpu
+output_dir: results
+data_dir: datasets
+num_threads: 4
