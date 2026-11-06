@@ -1,0 +1,111 @@
+{
+  "status": "verified",
+  "submission_branch_url": "https://github.com/pbn179/Advanced-topics-in-Deep-learning/tree/final-four-architecture-review",
+  "checkpoint_branch_url": "https://github.com/pbn179/Advanced-topics-in-Deep-learning/tree/final-four-architecture-checkpoints",
+  "audited_remote_commits": {
+    "submission": "638e06f553bca19e9d41e2eb05f282e38d33237e",
+    "checkpoints": "42733f5f1e32e34936c9e5ad6269a16e3b1aeb0a"
+  },
+  "authenticated_remote_clones_succeeded": true,
+  "passing_tests": 48,
+  "completed_training_stages": 156,
+  "recorded_test_evaluations": 156,
+  "architecture_count": 4,
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "observed_stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "aggregated_rows": 52,
+  "checkpoint_audit": {
+    "status": "verified",
+    "remote_checkpoint_branch": "final-four-architecture-checkpoints",
+    "artifact_files_verified": 1134,
+    "checkpoint_pt_files": 492,
+    "checkpoint_file_counts": {
+      "best_validation.pt": 156,
+      "final.pt": 156,
+      "start.pt": 156,
+      "initial_weights.pt": 12,
+      "split.pt": 12
+    },
+    "completed_training_stages": 156,
+    "recorded_test_evaluations": 156,
+    "selected_checkpoint_hashes_matched": 156,
+    "stage_commit_records_verified": 156,
+    "all_complete_histories": true,
+    "recorded_selection_gate_complete": true,
+    "core_source_hashes_match_protocol": true,
+    "missing_files": [],
+    "checksum_mismatches": [],
+    "new_training_performed": false,
+    "new_validation_or_test_evaluation_performed": false,
+    "method": "Fresh authenticated remote clone; file hashes, manifests, existing metrics and case coverage only; no model forward passes"
+  },
+  "notebook_audit": {
+    "status": "verified",
+    "executed_code_cells": 7,
+    "default_saved_mode": true,
+    "used_clean_branch_project_files_only": true,
+    "no_mnist_dataset_present": true,
+    "no_checkpoint_directory_present": true,
+    "forbidden_operation_attempts": {
+      "train_stage": 0,
+      "model_evaluate": 0,
+      "make_loaders": 0,
+      "full_experiment": 0,
+      "test_evaluation": 0,
+      "checkpoint_load": 0,
+      "optimizer_step": 0
+    },
+    "numerical_csvs_unchanged": {
+      "results/validation_history.csv": "59d607a8e8b71a819fe42f9eeac3522b0c0c13009d13501537dbae1d72b0a7a8",
+      "results/individual_results.csv": "0e9e2af8a99390586dc6813652a079ef673f369c6445ef29192c7a3e59dde5b0",
+      "results/trajectory_summary.csv": "ff37f4a3da610e62842d2c42b36a2f725863e48351493f7ab7ea48ed90ba7ade",
+      "results/aggregated_results.csv": "e4f24f9841059a63b1ce16f6b93df42c380899c06ba0eb69fe7c9b698cec2269",
+      "results/training_budget_diagnostics.csv": "df6031ecb1d03f21b0c70bb97d2abb9b7c8c59e5178b1ed0ae937d2ed3a0cc98"
+    },
+    "figure_png_reproduced_bitwise": true,
+    "figure_pdf_regenerated": true,
+    "notebook_execution_engine": "IPython in-process, no TCP kernel sockets",
+    "dependency_environment": "Existing installed declared dependencies; independent installation not repeated"
+  },
+  "unnecessary_operational_files_removed": [
+    "results/preflight_tests.txt",
+    "results/notebook_execution.txt",
+    "results/clean_checkout_notebook_execution.txt",
+    "results/clean_checkout_tests.txt",
+    "results/axis_label_revision.json"
+  ],
+  "removed_file_recovery_commit": "638e06f553bca19e9d41e2eb05f282e38d33237e",
+  "missing_required_files": [],
+  "hardcoded_workspace_path_matches": [],
+  "historical_files_required_by_saved_mode": false,
+  "scientific_training_run": false,
+  "new_mnist_validation_or_test_evaluation": false,
+  "test_fixtures": "Existing short synthetic unit/integration fixtures only; no MNIST data",
+  "independent_dependency_installation_tested": false,
+  "native_windows_macos_tested": false,
+  "anonymous_public_github_access_verified": false,
+  "main_merge_performed": false,
+  "history_rewritten": false,
+  "branches_deleted": false,
+  "figure_pdf_regenerated_and_content_matched_except_creation_date": true,
+  "original_pdf_bytes_retained_after_verification": true,
+  "canonical_lf_checkout_attributes_added": true
+}

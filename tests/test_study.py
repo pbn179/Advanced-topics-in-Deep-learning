@@ -81,9 +81,9 @@ def test_invalid_or_nonfinite_validation_is_rejected():
         with pytest.raises(ValueError):study.check_metrics(dict(loss=loss,accuracy=acc),.1,.98)
 
 
-def test_no_training_without_explicit_activation():
+def test_no_training_without_explicit_activation(tmp_path):
     with pytest.raises(PermissionError):study.execute()
-    for p in ('results/main','artifacts/../results','/tmp/experiment','artifacts'):
+    for p in ('results/main','artifacts/../results',str(tmp_path/'outside_project'),'artifacts'):
         with pytest.raises(ValueError):study.approved_run_dir(p)
 
 
