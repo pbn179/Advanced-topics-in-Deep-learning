@@ -1,0 +1,12 @@
+{
+  "original_ticket_validation_points": 39,
+  "original_ticket_test_points": 9,
+  "seeds_per_point": 3,
+  "reinitialization_curves": 0,
+  "training_performed": false,
+  "test_reevaluated": false,
+  "source_sha256": {
+    "reports/stage3/individual_results.csv": "c375a3dd9d0a156d67725ed5b73afd3a7ddc9377c48a9d1da6cec6b363305273",
+    "reports/stage4_test/individual_results.csv": "c636fc1b29ffa94b841598c720085bc53637027f074801dedba7c446ec0e6385"
+  }
+}
