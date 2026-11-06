@@ -1,0 +1,12 @@
+{
+  "plot_paper_style_comparison.py": "cadbbe6deeb2d3901b176d028d47ddd9797d910ac830ccfa15f4ed971483f759",
+  "paper_assets/paper_style_comparison/README.md": "61f5192d512fbf2248c0425efa5973faf9df09dc41d55f50a41187ea0f7ca6d5",
+  "paper_assets/paper_style_comparison/paper_style_test_comparison.pdf": "9d80c62d00b42b82d4edba99e1c4f6bf302b571a75feadc54bc0831aafd437df",
+  "paper_assets/paper_style_comparison/paper_style_test_comparison.png": "f4be8a1e67d9606ab1b744d08de059c1fb962c0318673b447d7b62221c903824",
+  "paper_assets/paper_style_comparison/paper_style_validation_comparison.pdf": "5dfb319ecde85e233afef5dc50b531d9c656ad81f338695ea707ff3e792f018d",
+  "paper_assets/paper_style_comparison/paper_style_validation_comparison.png": "0c9de3f7a9155da674db36b04483b47c82be63580cb4759abf014910cff7bd30",
+  "paper_assets/paper_style_comparison/plotted_means_and_sample_sd.csv": "0ed5cfe618834eee7f92cbc1aac296cb820e5f55d4a982c34e77277c57317aa4",
+  "paper_assets/paper_style_comparison/test_observations.csv": "7ee9f771e5c81a5f61b46df976d9b887828d8dc2e53a05a3baa5492371a755b4",
+  "paper_assets/paper_style_comparison/validation_observations.csv": "bb212610133d90db6909acd10e043d8e3c4b1025344905830176e21d49ebfb9e",
+  "paper_assets/paper_style_comparison/verification.json": "76c542c675956fef2ab04c3e6f21e70f6e1334a3746bfe8f57889a9955b5de78"
+}
