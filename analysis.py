@@ -91,7 +91,7 @@ def plot_main(summary,output):
         ax.set_xscale('log');ax.set_xlim(104,low*.95)
         ax.xaxis.set_major_locator(FixedLocator([100,50,25,10,7]))
         ax.xaxis.set_major_formatter(FuncFormatter(lambda x,_:f'{x:g}%'))
-        ax.xaxis.set_minor_formatter(NullFormatter());ax.set_xlabel('Original weights remaining')
+        ax.xaxis.set_minor_formatter(NullFormatter());ax.set_xlabel('Percent of Weights Remaining')
         ax.grid(axis='both',color='.87',linewidth=.5)
     upper=float((summary.iteration_min_validation_loss_mean+summary.iteration_min_validation_loss_std).max())
     axes[0].set_ylim(0,max(10500,math.ceil(upper/500)*500))
@@ -99,8 +99,8 @@ def plot_main(summary,output):
     axes[0].yaxis.set_major_formatter(FuncFormatter(lambda x,_:'0' if x==0 else f'{x/1000:g}k'))
     axes[0].axhline(10000,color='.4',ls=':',lw=.7,zorder=0)
     axes[0].text(.98,10000,'10k budget',transform=axes[0].get_yaxis_transform(),ha='right',va='bottom',fontsize=6.5,color='.4')
-    axes[0].set_ylabel('Iteration of minimum validation loss')
-    axes[1].set_ylabel('Test accuracy (%)')
+    axes[0].set_ylabel('Early-Stop Iteration (Val.)')
+    axes[1].set_ylabel('Accuracy at Early-Stop (Test)%')
     axes[0].set_title('(a)',loc='left',fontsize=9,pad=4);axes[1].set_title('(b)',loc='left',fontsize=9,pad=4)
     handles=[Line2D([],[],color=COLORS[a],marker=MARKERS[a],ls=STYLES[a],markersize=3.5,lw=1.2,
         label=f'{a}: {ARCHITECTURES[a][0]}–{ARCHITECTURES[a][1]}') for a in ARCHITECTURES]
@@ -186,7 +186,7 @@ Width allocation can show different observed accuracy and minimum-loss-iteration
 **This is an exploratory extension using the established, previously examined MNIST test set.** It is not an independent unseen confirmation of architecture D. Architectures and protocol were fixed before training and were not adjusted after test inspection. Only three model seeds, one data split, one dataset and approximately matched dense sizes were studied. A/B/C reuse the prior predefined seeds and split, so old and new runs must not be pooled as additional independent replications. Surviving parameter counts and mask geometry differ. The budget is **10,000 rather than the original paper's 50,000 updates**. No universally superior ratio is statistically established by this design.
 '''
     (results_dir/'findings.md').write_text(summary_text,encoding='utf-8')
-    caption='''Four fixed approximately 200k-parameter MNIST MLPs across 12 iterative pruning rounds plus the dense stage. (a) Iteration of minimum validation loss; the dotted line marks the fixed 10,000-update training budget. (b) Test accuracy of the corresponding validation-selected state. Every architecture has all 13 observed stages, aggregated over model seeds 0, 1 and 2; error bars show sample standard deviation. The reversed logarithmic x-axis uses actual percentages of original mask-active weights remaining, excluding biases. Lines join observed points only. Checkpoint selection was fixed and verified before test evaluation. This is an exploratory extension using the previously examined MNIST test set, not an independent unseen confirmation.'''
+    caption='''Four fixed approximately 200k-parameter MNIST MLPs across 12 iterative pruning rounds plus the dense stage. (a) Iteration of minimum validation loss; the dotted line marks the fixed 10,000-update training budget. (b) Test accuracy of the corresponding validation-selected state. The axis wording follows the original paper: 'Early-Stop' denotes retrospective minimum-validation-loss selection, not actual early termination; every model received all 10,000 updates. Every architecture has all 13 observed stages, aggregated over model seeds 0, 1 and 2; error bars show sample standard deviation. The reversed logarithmic x-axis uses actual percentages of original mask-active weights remaining, excluding biases. Lines join observed points only. Checkpoint selection was fixed and verified before test evaluation. This is an exploratory extension using the previously examined MNIST test set, not an independent unseen confirmation.'''
     (assets_dir/'main_results_caption.txt').write_text(caption+'\n')
     (assets_dir/'main_results_caption.tex').write_text('\\caption{'+caption.replace('%','\\%')+'}\n')
     architectures=pd.DataFrame([dict(Architecture=a,Hidden1=w[0],Hidden2=w[1],Ratio={'A':'1:2.60','B':'1:1.02','C':'3:1','D':'6.05:1'}[a],Parameters=COUNTS[a]) for a,w in ARCHITECTURES.items()])
