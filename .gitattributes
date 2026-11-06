@@ -1,0 +1,7 @@
+# Preserve byte-level reproducibility manifests on all checkout platforms.
+* text=auto eol=lf
+*.pt -text
+*.png -text
+*.pdf -text
+*.zip -text
+*.gz -text

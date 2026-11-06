@@ -30,3 +30,15 @@ In a shallow clone, fetch the historical branch first. Avoid restoring old `resu
 The freshly trained tensors are retained under `artifacts/main_study/` in the execution workspace. Each of 12 runs has original initialization and split indices, and all 13 stages have exact masks, start state, actual best-validation state, final 10k state, full history, metrics and SHA256 commit marker. All 156 selected state hashes are also directly recorded in `results/verification.json`.
 
 The complete new checkpoint archive is on branch `final-four-architecture-checkpoints` of the same repository. All 492 tensor files (156 starts, 156 best states, 156 finals, 12 initializations and 12 splits) are included, with stage history and SHA256 commit records. See `new_checkpoint_artifacts.json` for every artifact hash. The lightweight review branch deliberately omits these large tensor files; this does not impede the default CSV-based notebook. Use GitHub Code → Download ZIP on `final-four-architecture-checkpoints` for a separate full artifact copy. Alternatively, fetch that branch and restore `artifacts/main_study/` into a separate working directory. Preserve any local unrelated run files first. GitHub Releases/LFS remain alternatives, but release API access was unavailable in the prior environment. No unverified external artifact URL is asserted.
+
+## Submission-verification cleanup
+
+The following redundant operational records were removed from the latest clean working tree, with their original contents preserved at commit `638e06f553bca19e9d41e2eb05f282e38d33237e` and its ancestors:
+
+- `results/preflight_tests.txt`
+- `results/notebook_execution.txt`
+- `results/clean_checkout_notebook_execution.txt`
+- `results/clean_checkout_tests.txt`
+- `results/axis_label_revision.json`
+
+They are superseded by the current `results/tests.txt`, `results/submission_verification.json/.md`, and the executed notebook. Two console transcripts contained machine-specific execution paths; none were runtime dependencies. Recover any one with `git show 638e06f553bca19e9d41e2eb05f282e38d33237e:PATH`. No scientific CSV, checkpoint, initialization, pruning mask, protocol record or original research branch was removed.

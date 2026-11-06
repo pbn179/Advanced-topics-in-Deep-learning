@@ -92,7 +92,7 @@ Linux CPU-only Torch can be installed first with `python -m pip install --index-
 
 ## Default: reproduce the figure from saved results
 
-Leave `MODE = "saved"` and `ENABLE_TRAINING = False` in the notebook and Run All. It loads and verifies final CSVs, recomputes the approved aggregates, and regenerates only the main figure. **It does not train, download MNIST, load checkpoint tensors, or evaluate test data.** The source measurements are never overwritten. The saved-data notebook works with the lightweight clean branch; large checkpoints are optional for this workflow.
+Leave `MODE = "saved"` and `ENABLE_TRAINING = False` in the notebook and Run All. It loads and verifies final CSVs, recomputes the approved aggregates, and regenerates only the main figure. **It does not train, download MNIST, load checkpoint tensors, or evaluate test data.** The source measurements are never overwritten. `.gitattributes` preserves LF text bytes across checkouts so the SHA256 manifests are not invalidated by automatic line-ending conversion. The saved-data notebook works with the lightweight clean branch; large checkpoints are optional for this workflow.
 
 Equivalent command:
 
@@ -117,7 +117,27 @@ Workers run independent architecture/seed trajectories with one Torch thread eac
 
 The notebook's full reproduction additionally requires `MODE="reproduce"` and `ENABLE_TRAINING=True`. Merely importing code or executing the default notebook never activates it.
 
-## Checkpoints and history
+## Submission and checkpoints
+
+The intended submission branch is [`final-four-architecture-review`](https://github.com/pbn179/Advanced-topics-in-Deep-learning/tree/final-four-architecture-review). It includes every file needed for the default saved-results notebook. The complete large-artifact branch is [`final-four-architecture-checkpoints`](https://github.com/pbn179/Advanced-topics-in-Deep-learning/tree/final-four-architecture-checkpoints).
+
+For a lightweight clone:
+
+```sh
+git clone --depth 1 --single-branch --branch final-four-architecture-review https://github.com/pbn179/Advanced-topics-in-Deep-learning.git lottery-ticket-research
+cd lottery-ticket-research
+```
+
+To retrieve the exact saved artifacts into that clone, preserving the current clean branch:
+
+```sh
+git fetch --depth 1 origin final-four-architecture-checkpoints
+git restore --source=FETCH_HEAD --worktree -- artifacts/main_study
+```
+
+Back up any unrelated local `artifacts/main_study` directory before restoring. This only retrieves files; it does not train or evaluate anything. Alternatively, open the checkpoint branch in GitHub and choose **Code → Download ZIP**, extracting it separately. `archive/new_checkpoint_artifacts.json` lists all required artifact SHA256 hashes. See `results/submission_verification.md` for the fresh remote-clone audit and test/notebook results.
+
+### Artifact layout and historical recovery
 
 Large tensor artifacts are not included in the clean branch's ordinary working tree. They are retained on the separate `final-four-architecture-checkpoints` branch and in the cloud workspace; see `archive/README.md` for exact recovery references and completeness. Essential CSVs, figure and notebook are directly accessible on the review branch. GitHub Releases or LFS can replace the separate checkpoint archive when their upload/authentication support is available. No generated ZIP or duplicate checkpoint tree is committed to main.
 
