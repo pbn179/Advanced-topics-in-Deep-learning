@@ -1,4 +1,0 @@
-architecture,device,stages,iterations_per_stage,recorded_training_seconds,recorded_evaluation_seconds,recorded_training_minutes,newly_executed_training_seconds,provenance
-A,cpu,13,10000,826.1824719899996,86.16949500900864,13.769707866499994,826.1824719899996,New Stage 2.6 pilot
-B,cpu,13,10000,865.0109365130011,90.14768325697696,14.416848941883352,865.0109365130011,New Stage 2.6 pilot
-C,cpu,13,10000,820.4203894139987,85.54825212799642,13.673673156899978,0.0,Historical Stage 2.5 every-100 trajectory

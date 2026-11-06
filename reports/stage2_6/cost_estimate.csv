@@ -1,3 +1,0 @@
-architectures,seeds,stages_per_seed,updates_per_stage,validation_interval,stage_trainings,total_updates,estimated_cpu_hours,planning_cpu_hours_plus_25_percent,basis,scenario
-3,3,13,10000,100,117,1170000,2.093011498264166,2.6162643728302077,Three times the sum of the three measured seed-0 pilot runtimes; controls excluded,complete_three_seed_study_including_existing_seed0
-3,2,13,10000,100,78,780000,1.3953409988427774,1.7441762485534718,Seeds 1 and 2 only; reuse all validated seed-0 pilots if the final protocol stays unchanged,new_work_if_protocol_unchanged_and_seed0_reused

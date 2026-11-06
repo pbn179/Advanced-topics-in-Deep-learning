@@ -1,9 +1,0 @@
-stage_interpretation,iterations_per_stage,seeds_per_architecture,architectures,with_controls,training_stages,total_updates,estimated_hours,planning_hours_plus_25_percent
-13 total stages (dense + 12 pruning rounds),10000,3,"A,B,C",False,117,1170000,3.8692369781054246,4.836546222631781
-13 total stages (dense + 12 pruning rounds),10000,3,"A,B,C",True,225,2250000,7.440840342510432,9.30105042813804
-dense + 13 pruning rounds,10000,3,"A,B,C",False,126,1260000,4.166870591805842,5.208588239757303
-dense + 13 pruning rounds,10000,3,"A,B,C",True,243,2430000,8.036107569911266,10.045134462389083
-13 total stages (dense + 12 pruning rounds),50000,3,"A,B,C",False,117,5850000,19.346184890527123,24.182731113158905
-13 total stages (dense + 12 pruning rounds),50000,3,"A,B,C",True,225,11250000,37.20420171255216,46.5052521406902
-dense + 13 pruning rounds,50000,3,"A,B,C",False,126,6300000,20.83435295902921,26.04294119878651
-dense + 13 pruning rounds,50000,3,"A,B,C",True,243,12150000,40.18053784955633,50.22567231194542

@@ -1,4 +1,5 @@
-architecture,hidden1,hidden2,hidden_width_ratio,parameters
-A,162,421,0.3847980997624703,200013
-B,200,204,0.9803921568627451,200054
-C,231,77,3.0,199979
+Architecture,Hidden1,Hidden2,Ratio,Parameters
+A,162,421,1:2.60,200013
+B,200,204,1:1.02,200054
+C,231,77,3:1,199979
+D,242,40,6.05:1,200100

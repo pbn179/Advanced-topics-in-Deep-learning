@@ -1,2 +1,0 @@
-iteration,selection_eligible,training_loss,validation_loss,validation_accuracy
-500,True,0.156884104013443,0.17059150505065918,0.9462

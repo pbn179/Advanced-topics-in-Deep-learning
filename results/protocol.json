@@ -1,0 +1,83 @@
+{
+  "configuration": {
+    "architectures": {
+      "A": [
+        162,
+        421
+      ],
+      "B": [
+        200,
+        204
+      ],
+      "C": [
+        231,
+        77
+      ],
+      "D": [
+        242,
+        40
+      ]
+    },
+    "model_seeds": [
+      0,
+      1,
+      2
+    ],
+    "split_seed": 42,
+    "training_examples": 55000,
+    "validation_examples": 5000,
+    "test_examples": 10000,
+    "initialization": "gaussian_glorot",
+    "bias_initialization": "zero",
+    "optimizer": "Adam",
+    "learning_rate": 0.0012,
+    "batch_size": 60,
+    "iterations": 10000,
+    "validation_interval": 100,
+    "pruning_rounds": 12,
+    "hidden_pruning_rate": 0.2,
+    "output_pruning_rate": 0.1,
+    "biases_pruned": false,
+    "device": "cpu",
+    "num_threads": 1,
+    "controls": false,
+    "test_stages": "all"
+  },
+  "source_sha256": {
+    "models.py": "84a9262ddc462c69f7860d06c5d90dd1b9e792775228d9e56ead9a3dc59a7575",
+    "pruning.py": "f182e00eab6cd8289fa1e9ab9a9dc64b6d0f393665af716f844d968073329781",
+    "train.py": "ba0e9d92a320437a11eaf977f5b225e586e653e1483c96b094fe823b2a742329",
+    "data.py": "4b23113ec2ccff7417347e745076da46aa66a53e86c4e1527799fe3794166673",
+    "checkpoints.py": "71688555e1cc0dfe4f8a15318e42a50ee38e239883ae338d22eb3369d318665e",
+    "study.py": "f9fa12304463ff5a3686b0a2c1bd7c2bf04deae77888f98fc7c66e3f6b63eb12"
+  },
+  "config_sha256": "1cee4bf80e5c03d06f8d1995a2adf0b26ce31f1ceb66a760524dac9c93b285be",
+  "versions": {
+    "torch": "2.6.0+cpu",
+    "torchvision": "0.21.0+cpu",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  },
+  "python": "3.12.14",
+  "dataset_integrity": {
+    "train-images-idx3-ubyte.gz": {
+      "published_md5": "f68b3c2dcbeaaa9fbdd348bbdeb94873",
+      "uncompressed_sha256": "ba891046e6505d7aadcbbe25680a0738ad16aec93bde7f9b65e87a2fc25776db"
+    },
+    "train-labels-idx1-ubyte.gz": {
+      "published_md5": "d53e105ee54ea40749a09fcbcd1e9432",
+      "uncompressed_sha256": "65a50cbbf4e906d70832878ad85ccda5333a97f0f4c3dd2ef09a8a9eef7101c5"
+    },
+    "t10k-images-idx3-ubyte.gz": {
+      "published_md5": "9fb629c4189551a2d022fa330f9573f3",
+      "uncompressed_sha256": "0fa7898d509279e482958e8ce81c8e77db3f2f8254e26661ceb7762c4d494ce7"
+    },
+    "t10k-labels-idx1-ubyte.gz": {
+      "published_md5": "ec29112dd5afa0611ce80d1b7f02629c",
+      "uncompressed_sha256": "ff7bcfd416de33731a308c3f266cc351222c34898ecbeaf847f06e48f7ec33f2"
+    }
+  },
+  "study_origin": "fresh four-architecture run, no previous model/checkpoint reuse",
+  "interpretation": "exploratory extension using the previously examined MNIST test set"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "verified",
+  "executed_default_code_cells": 7,
+  "default_mode": "saved",
+  "training_enabled": false,
+  "training_performed_in_notebook": false,
+  "test_reevaluated_in_notebook": false,
+  "main_png_reproduced_bitwise": true,
+  "all_observed_training_cases": 156,
+  "aggregate_points_per_panel": 52,
+  "validation_history_rows": 15600,
+  "numerical_files_unchanged": true,
+  "all_test_evaluations_after_selection_manifest": true,
+  "checkpoint_tensor_files": 492,
+  "scientific_source_hashes_unchanged": true,
+  "independent_clean_dependency_installation_tested": false
+}

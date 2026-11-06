@@ -1,6 +1,0 @@
-{
-  "completed_stages": 13,
-  "real_checkpoint_prune_reset_mask_checks": true,
-  "completed_run_resume_skips_all_training": true,
-  "checkpoints_unchanged_after_resume": true
-}

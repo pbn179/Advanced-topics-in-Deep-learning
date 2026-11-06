@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "fresh_project_copy": true,
+  "no_dataset_required": true,
+  "no_tensor_checkpoints_required": true,
+  "full_test_suite_passed": 48,
+  "executed_default_notebook_cells": 7,
+  "saved_numeric_artifacts_unchanged": true,
+  "main_png_matches_source_bitwise": true,
+  "installed_dependency_environment_reused": true,
+  "independent_clean_dependency_installation_tested": false,
+  "native_windows_macos_tested": false
+}

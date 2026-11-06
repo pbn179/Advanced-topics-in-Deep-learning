@@ -9,14 +9,10 @@ ARCHITECTURES: dict[str, tuple[int, int]] = {
     "A": (162, 421),
     "B": (200, 204),
     "C": (231, 77),
-    "LeNet300100": (300, 100),
-    "legacy_A": (200, 520),
-    "legacy_B": (250, 270),
-    "D": (320, 46),
+    "D": (242, 40),
 }
 
-
-MAIN_ARCHITECTURES = ("A", "B", "C")
+MAIN_ARCHITECTURES = ("A", "B", "C", "D")
 
 
 class MLP(nn.Module):

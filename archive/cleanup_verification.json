@@ -1,0 +1,12 @@
+{
+  "historical_commit": "ab3b53c830dbeba1174507b142919ab09eadbe5b",
+  "historical_files": 1322,
+  "historical_checkpoints": 469,
+  "review_branch": "final-four-architecture-review",
+  "checkpoint_branch": "final-four-architecture-checkpoints",
+  "removed_from_current_view": 1308,
+  "historical_files_irreversibly_deleted": 0,
+  "main_merged": false,
+  "force_push": false,
+  "file_map": "archive/cleanup_file_map.csv"
+}

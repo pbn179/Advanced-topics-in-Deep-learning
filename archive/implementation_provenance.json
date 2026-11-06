@@ -1,0 +1,12 @@
+{
+  "copied_unchanged": {
+    "pruning.py": "f182e00eab6cd8289fa1e9ab9a9dc64b6d0f393665af716f844d968073329781",
+    "train.py": "ba0e9d92a320437a11eaf977f5b225e586e653e1483c96b094fe823b2a742329",
+    "data.py": "4b23113ec2ccff7417347e745076da46aa66a53e86c4e1527799fe3794166673",
+    "checkpoints.py": "71688555e1cc0dfe4f8a15318e42a50ee38e239883ae338d22eb3369d318665e"
+  },
+  "models_change": "Only architecture registry changed: D is fixed to 242\u201340; MLP implementation unchanged.",
+  "old_data_used": "Cached MNIST dataset only; no old model checkpoint or metric is used by the new runner.",
+  "mlp_class_ast_sha256": "17efeecb2fed4d35b4b7ed0e17a22919c0892815403bf97e5688f88d8ca638e8",
+  "mlp_class_identical_to_previous_validated_implementation": true
+}

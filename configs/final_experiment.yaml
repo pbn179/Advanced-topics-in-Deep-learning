@@ -1,0 +1,26 @@
+# Fixed before training. This is an exploratory extension of the established MNIST study.
+architectures:
+  A: [162, 421]
+  B: [200, 204]
+  C: [231, 77]
+  D: [242, 40]
+model_seeds: [0, 1, 2]
+split_seed: 42
+training_examples: 55000
+validation_examples: 5000
+test_examples: 10000
+initialization: gaussian_glorot
+bias_initialization: zero
+optimizer: Adam
+learning_rate: 0.0012
+batch_size: 60
+iterations: 10000
+validation_interval: 100
+pruning_rounds: 12
+hidden_pruning_rate: 0.2
+output_pruning_rate: 0.1
+biases_pruned: false
+device: cpu
+num_threads: 1
+controls: false
+test_stages: all

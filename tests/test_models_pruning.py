@@ -9,9 +9,7 @@ from models import ARCHITECTURES, MLP, parameter_count
 from pruning import apply_masks, make_masks, prune_masks, rewind_weights, weight_statistics
 
 
-@pytest.mark.parametrize("name,count", [("A", 200013), ("B", 200054), ("C", 199979),
-                                        ("LeNet300100", 266610), ("legacy_A", 266730),
-                                        ("legacy_B", 266730), ("D", 266436)])
+@pytest.mark.parametrize("name,count", [("A", 200013), ("B", 200054), ("C", 199979), ("D", 200100)])
 def test_parameter_counts_and_output_shape(name, count):
     model = MLP(*ARCHITECTURES[name])
     assert parameter_count(model) == count

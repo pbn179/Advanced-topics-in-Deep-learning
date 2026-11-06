@@ -1,7 +1,0 @@
-{
-  "torch": "2.6.0+cpu",
-  "cuda_available": false,
-  "mps_available": false,
-  "cpu_threads": 1,
-  "gpu_timings": "Unavailable; no GPU measured"
-}

@@ -1,2 +1,0 @@
-architecture,seed,initialization_seed,split_seed,stage,condition,iterations,eval_interval,parameters,total_weights,remaining_weights,remaining_percent,sparsity,best_iteration,best_validation_loss,best_validation_accuracy,final_training_loss,training_loss,runtime_seconds,accuracy_degradation_pp,best_at_budget_end
-B,0,0,42,0,dense,500,100,266730,266200,266200,100.0,0.0,500,0.1707859073638916,0.9502,0.14372821152210236,0.28845001723617314,5.513429954000003,0.0,True

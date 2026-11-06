@@ -1,6 +1,0 @@
-setup,device,architectures,seeds,stages,iterations,total_updates,estimated_hours,planning_hours_plus_25_percent
-200k eval500 optimized pipeline,cpu,3,3,13,10000,1170000,1.5381552900916964,1.9226941126146204
-266k eval500 matched optimized pipeline,cpu,3,3,13,10000,1170000,1.509000754570811,1.886250943213514
-266k previous Stage 2 eval100 pipeline,cpu,3,3,13,10000,1170000,3.869236978105425,4.836546222631782
-200k eval500 matched short-probe projection,cpu,3,3,13,10000,1170000,1.4661710984916985,1.832713873114623
-200k eval100 sensitivity estimate,cpu,3,3,13,10000,1170000,1.6935393865268602,2.116924233158575
