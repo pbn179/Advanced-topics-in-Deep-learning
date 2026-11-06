@@ -1,0 +1,50 @@
+{
+  "result": {
+    "architecture": "D",
+    "hidden1": 242,
+    "hidden2": 40,
+    "width_ratio": 6.05,
+    "model_seed": 1,
+    "split_seed": 42,
+    "pruning_stage": 0,
+    "original_initialization": "artifacts/main_study/runs/D_seed1/initial_weights.pt",
+    "initialization_sha256": "87f758a3373036916248b685af14283e25bef4cd60e36fed6bf37e95f87b81d1",
+    "split_sha256": "a5a47d9c70540d9d173834780a748ab2ebdaa299cf9f092f7f9dbe7e148f9713",
+    "layer_active_weights": {
+      "fc1": 189728,
+      "fc2": 9680,
+      "fc3": 400
+    },
+    "previous_final_sha256": null,
+    "protocol_sha256": "2f3d36f19024a1019d9f2192530289d50dd82c455dab8b96069ff5ef7db8c7f5",
+    "selected_checkpoint": "artifacts/main_study/runs/D_seed1/stage0/best_validation.pt",
+    "final_checkpoint": "artifacts/main_study/runs/D_seed1/stage0/final.pt",
+    "best_iteration": 4400,
+    "best_validation_loss": 0.07568613262176514,
+    "best_validation_accuracy": 0.9782,
+    "final_training_loss": 0.008898396976292133,
+    "training_loss": 0.057247375761920946,
+    "runtime_seconds": 39.62847328799944,
+    "evaluation_seconds": 5.188079329001084,
+    "diagnostic_evaluation_seconds": 0.0,
+    "total_weights": 199808,
+    "remaining_weights": 199808,
+    "remaining_percent": 100.0,
+    "sparsity": 0.0,
+    "initial_parameters": 200100,
+    "active_parameters": 200100,
+    "parameter_sparsity": 0.0,
+    "iterations": 10000,
+    "validation_interval": 100,
+    "mask_checks": 100,
+    "best_state_sha256": "737facb1fd02475e7d94710df00520967ab5eb3826ebec8ecc6ae1ee38427f26",
+    "mask_sha256": "37371d555e8caf213c6470787e4ff80e9a890dca5bf79a8ae003aa5d7460a438"
+  },
+  "sha256": {
+    "start.pt": "490f78b67000d5dbede91af3dbaa20b5532245f41a163ea6146ad64aaadeeb71",
+    "best_validation.pt": "a5aef08ccee1fdfc3135d3013720224dd57c19932279a67aea085b369997f375",
+    "final.pt": "785cde7171e6c7342476cb2e0efbaed93e7cb55667e3218117349c677944c271",
+    "history.csv": "b349ebfdbf8c6eb050371df90145ffb03356c22498c14f46e24df10d6fe007e5",
+    "metrics.json": "6f578f556abe9edc95509c71269bed63d338a28e34cebe98f2c6c34f4247700c"
+  }
+}

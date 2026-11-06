@@ -1,0 +1,50 @@
+{
+  "result": {
+    "architecture": "D",
+    "hidden1": 242,
+    "hidden2": 40,
+    "width_ratio": 6.05,
+    "model_seed": 0,
+    "split_seed": 42,
+    "pruning_stage": 8,
+    "original_initialization": "artifacts/main_study/runs/D_seed0/initial_weights.pt",
+    "initialization_sha256": "1d5a1091b243194613da190e3f2244645a739bc8d9886ee9b3c752c44dd704b7",
+    "split_sha256": "a5a47d9c70540d9d173834780a748ab2ebdaa299cf9f092f7f9dbe7e148f9713",
+    "layer_active_weights": {
+      "fc1": 31833,
+      "fc2": 1626,
+      "fc3": 174
+    },
+    "previous_final_sha256": "5f25794509aff2e7e338875d9d2ece7a6c39362eb1386f53ddec0c4223dc9391",
+    "protocol_sha256": "2f3d36f19024a1019d9f2192530289d50dd82c455dab8b96069ff5ef7db8c7f5",
+    "selected_checkpoint": "artifacts/main_study/runs/D_seed0/stage8/best_validation.pt",
+    "final_checkpoint": "artifacts/main_study/runs/D_seed0/stage8/final.pt",
+    "best_iteration": 3500,
+    "best_validation_loss": 0.062096629142761234,
+    "best_validation_accuracy": 0.9816,
+    "final_training_loss": 0.0011126493336632848,
+    "training_loss": 0.03249927578426619,
+    "runtime_seconds": 66.01825274800012,
+    "evaluation_seconds": 7.275222588003089,
+    "diagnostic_evaluation_seconds": 0.0,
+    "total_weights": 199808,
+    "remaining_weights": 33633,
+    "remaining_percent": 16.832659352978858,
+    "sparsity": 0.8316734064702114,
+    "initial_parameters": 200100,
+    "active_parameters": 33925,
+    "parameter_sparsity": 0.8304597701149425,
+    "iterations": 10000,
+    "validation_interval": 100,
+    "mask_checks": 100,
+    "best_state_sha256": "52e464e12410ca9437baf5999d0232906df36b81d5a3239d5b15eae54766a940",
+    "mask_sha256": "9cef19e7ae57f855229284b9cd469d3c0b8bf6abe2b78655eb59b3d5411a4519"
+  },
+  "sha256": {
+    "start.pt": "ab553caee82124e087bddf1a25340f3ab9f9e3d6704bc7bedda1aaa54800b52b",
+    "best_validation.pt": "82a5430dd411f456bfb512059fc495145ddd16e1f07169845898aedfbfa02412",
+    "final.pt": "6899878f3ee221da3054bb792404bcd43b44d156ff1540c4aa3c2d1e0209de7f",
+    "history.csv": "7f63ed8c81429ac2b6e354f18fb2ec08f31fd02ba66f120b299c25a25ae383d4",
+    "metrics.json": "29ddc5ed4f23659e30618f4f67cc5144d47eb0b5637920f483e5072b75246175"
+  }
+}
