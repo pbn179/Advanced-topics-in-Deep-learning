@@ -1,0 +1,13 @@
+{
+  "axis_names": {
+    "a": "Early-Stop Iteration (Val.)",
+    "b": "Accuracy at Early-Stop (Test)%",
+    "x": "Percent of Weights Remaining"
+  },
+  "csv_files_unchanged": 5,
+  "all_checkpoint_artifact_hashes_unchanged": true,
+  "pruning_range_unchanged": true,
+  "training_performed": false,
+  "test_reevaluated": false,
+  "default_notebook_executed": true
+}

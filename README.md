@@ -16,7 +16,7 @@ This is the clean, fresh four-architecture experimental extension. All four arch
 ## Main deliverables
 
 - `final_experiment.ipynb`: consolidated executed notebook; default is saved-results analysis without training or test reevaluation.
-- `paper_assets/main_results.pdf` and `.png`: one two-panel figure, all 13 observed stages for each architecture, at approximately two-column paper width. Panel (a) shows iteration of minimum validation loss, panel (b) shows held-out test accuracy at that checkpoint. Bars are sample SD across three seeds. X positions are actual percentages of original **weights**, excluding biases, remaining; they are not rounded common parameter budgets.
+- `paper_assets/main_results.pdf` and `.png`: one two-panel figure, all 13 observed stages for each architecture, at approximately two-column paper width. Panel (a), labelled `Early-Stop Iteration (Val.)`, shows iteration of minimum validation loss; panel (b), labelled `Accuracy at Early-Stop (Test)%`, shows held-out accuracy at that checkpoint. These labels follow the paper; selection is retrospective and training never stopped early. The shared x-axis label is `Percent of Weights Remaining`. Bars are sample SD across three seeds. X positions are actual percentages of original **weights**, excluding biases, remaining; they are not rounded common parameter budgets.
 - `results/individual_results.csv`: all 156 new architecture/seed/stage measurements, selected-state identifiers and integrity metadata.
 - `results/aggregated_results.csv`: mean, sample SD, min/max by architecture and stage (52 rows).
 - `paper_assets/architectures.tex`: concise architecture table; `main_results_caption.txt/.tex`: caption.
