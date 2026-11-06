@@ -1,10 +1,10 @@
 {
-  "plot_ticket_only_comparison.py": "af1799d35410c23d59a7146821242a0d64e13511c41ae311e51db31881b44457",
-  "paper_assets/ticket_only_comparison/README.md": "0a2a6febc0a71cb52ec04a210f5e27d454f09843c1e8c8b3cefebe5741936eb1",
-  "paper_assets/ticket_only_comparison/paper_style_test_tickets_only.pdf": "ad534b112898adcac824d0a143e6303c3e81c0ac151fa343b97ab632d3340c33",
-  "paper_assets/ticket_only_comparison/paper_style_test_tickets_only.png": "5c821df0ac6cafd292238d725e9264cf225ffa4804fc2e9177d8b1d32b2f0377",
-  "paper_assets/ticket_only_comparison/paper_style_validation_tickets_only.pdf": "d0c431fca6c5f6e55b3952899b9414c53bb55c2a9b52c9c53e7339d8773a1e40",
-  "paper_assets/ticket_only_comparison/paper_style_validation_tickets_only.png": "c16cd3e4b727b50f2ee02831318bf8961bf34d6b17b26362dc84fbdac19c081d",
+  "plot_ticket_only_comparison.py": "cc80b635dcda7868230c7a6bfc1393981730f03d89c6db3bcd2e53a432ada9f6",
+  "paper_assets/ticket_only_comparison/README.md": "902889e6c9d837e6e698fb74e4442ea720b10953512343ac8f9724154e6f1026",
+  "paper_assets/ticket_only_comparison/paper_style_test_tickets_only.pdf": "f9e1d627e7774caed765445987307b120784c0e5823b3d13a5a501e17146a915",
+  "paper_assets/ticket_only_comparison/paper_style_test_tickets_only.png": "3cede04a675ce0d1d4413bb5f8433ff9734300b56f3fe67021f5721bd2be89dc",
+  "paper_assets/ticket_only_comparison/paper_style_validation_tickets_only.pdf": "d03c2692a490d7a9eb375d4a62bfa7a5b986b6449dff0b35891fde6ebea56a73",
+  "paper_assets/ticket_only_comparison/paper_style_validation_tickets_only.png": "848434c5386f8f69ae8156c47fef719b850f824e5bb666c8972271350ef8fed9",
   "paper_assets/ticket_only_comparison/plotted_means_and_sample_sd.csv": "99cf984096cbf92dd6b7260c3ae44c96a0cded14ec62f9d7f95b20b5386b90ba",
-  "paper_assets/ticket_only_comparison/verification.json": "079a81b72bea7428bc9b1b48471ae42f7ee1ce5231631f5f6ea58dcce26ec153"
+  "paper_assets/ticket_only_comparison/verification.json": "c62a0133a3a9a37044b189248c7affeb80ecfad8c73061acdd91b1c29be5e312"
 }
